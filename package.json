@@ -11,6 +11,7 @@
 	},
 	"dependencies": {
 		"@o7/icon": "^0.3.11",
+		"@sveltejs/adapter-vercel": "^5.4.5",
 		"common": "workspace:*",
 		"devalue": "^5.1.1",
 		"partysocket": "^1.0.2",
@@ -19,7 +20,6 @@
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20240925.0",
 		"@eslint/js": "^9.11.1",
-		"@sveltejs/adapter-cloudflare": "^4.7.2",
 		"@sveltejs/kit": "^2.6.1",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0-next.7",
 		"autoprefixer": "^10.4.20",
