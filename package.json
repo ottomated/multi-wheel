@@ -7,18 +7,13 @@
 		"db:push:local": "node ./prisma/push.mjs --local",
 		"dev": "vite dev",
 		"lint": "svelte-kit sync && eslint --max-warnings 0 --fix . && svelte-check",
-		"preview": "vite preview",
-		"db:push": "node ./prisma/push.mjs"
+		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@tanstack/svelte-query": "^5.59.0",
-		"@trpc/client": "^10.45.2",
-		"@trpc/server": "^10.45.2",
+		"@o7/icon": "^0.3.11",
 		"common": "workspace:*",
 		"devalue": "^5.1.1",
-		"kysely": "^0.27.4",
-		"kysely-d1": "^0.3.0",
-		"trpc-svelte-query": "^2.1.0",
+		"partysocket": "^1.0.2",
 		"zod": "^3.23.8"
 	},
 	"devDependencies": {
@@ -27,9 +22,7 @@
 		"@sveltejs/adapter-cloudflare": "^4.7.2",
 		"@sveltejs/kit": "^2.6.1",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0-next.7",
-		"@types/better-sqlite3": "^7.6.11",
 		"autoprefixer": "^10.4.20",
-		"better-sqlite3": "^11.3.0",
 		"dotenv": "^16.4.5",
 		"eslint": "^9.11.1",
 		"eslint-config-prettier": "^9.1.0",
@@ -41,8 +34,6 @@
 		"prettier": "^3.3.3",
 		"prettier-plugin-svelte": "^3.2.7",
 		"prettier-plugin-tailwindcss": "^0.6.8",
-		"prisma": "^5.20.0",
-		"prisma-kysely": "^1.8.0",
 		"svelte": "^5.0.0-next.262",
 		"svelte-check": "^4.0.4",
 		"tailwindcss": "^3.4.13",
