@@ -32,6 +32,7 @@
 		ws.addEventListener('message', (event) => {
 			const msg = JSON.parse(event.data) as ServerToClient;
 			if (msg.type === 'spin') {
+				console.log('[SPIN]', Date.now(), msg.timestamp);
 				spin.angle = msg.angle;
 				spin.velocity = msg.velocity;
 				spin.timestamp = msg.timestamp;
